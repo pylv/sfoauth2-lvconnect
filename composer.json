@@ -1,0 +1,28 @@
+{
+    "name": "linkvalue/sfoauth2-lvconnect",
+    "description": "Provider oauth2 lvconnect pour symfony4",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Pyc",
+            "email": "pierreyves.christmann@link-value.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2",
+        "symfony/http-foundation": "4.2.*",
+        "symfony/security": "4.2.*",
+        "league/oauth2-client": "2.4.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "8.0.*",
+        "mockery/mockery": "1.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Linkvalue\\LVConnect\\Symfony\\SDK\\": "src"
+        }
+    }
+}
